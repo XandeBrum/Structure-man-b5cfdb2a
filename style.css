@@ -1,0 +1,42 @@
+td,
+th {
+    
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+th[scope="col"] {
+    background-color: #dddddd;
+    color: white;
+}
+
+th[scope="row"] {
+    background-color: #f4f4f4;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+td {
+    padding: 3%;
+    background-color: #636363;
+    color: white;
+
+}
